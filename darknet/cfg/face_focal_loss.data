@@ -1,0 +1,6 @@
+classes= 1
+train  = ../build/darknet/x64/data/voc/train.txt
+valid = ../build/darknet/x64/data/voc/2007_val.txt
+names = data/face.names
+backup = backup_focal_loss
+

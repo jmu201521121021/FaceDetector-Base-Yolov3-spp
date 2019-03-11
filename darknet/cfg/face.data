@@ -1,0 +1,6 @@
+classes= 1
+train  = /jmu/jmuaia.tanghaom.top/data/User/admin/home/train/faceDetector/darknet-v1.0/build/darknet/x64/data/voc/train.txt
+valid  = /jmu/jmuaia.tanghaom.top/data/User/admin/home/train/faceDetector/data/FDDB/test_fddb.txt
+names = data/face.names
+backup = backup
+

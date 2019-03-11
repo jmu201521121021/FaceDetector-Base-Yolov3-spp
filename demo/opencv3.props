@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\opencv_3.0\opencv\build\include;C:\opencv_3.0\opencv\build\include\opencv;C:\opencv_3.0\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\opencv_3.0\opencv\build\x64\vc14\lib;E:\workspaces\capstone\project\test2\x64\Release;E:\workspaces\capstone\project\test2\x64\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world330.lib;yolo_cpp_dll.lib;opencv_world330d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
