@@ -31,7 +31,7 @@ git clone
 
 2、Install darknetAB with GPU surpport 
 
-- detail,please check here 
+- detail,please check [here](https://github.com/AlexeyAB/darknet/blob/master/README.md) 
 
 3、Download the training set (`Widerface`) and place it in *`darknet/build/darknet/x64/data/voc`*
 
@@ -51,7 +51,7 @@ sh train
 
 ## Pretrained Models
 
-- Please check here
+- Please check here(soon )
 
 ## Evaluation
 
@@ -64,7 +64,7 @@ sh train
 
 ## Face Detection system
 
-- Please check here.
+- Please check here(soon).
 
 ## Contact
 
