@@ -8,8 +8,6 @@
 
 ## Deep Face Detection
 
-[TOC]
-
 ## Inroduction
 
 In this repository, we provide training data, network settings and loss designs for deep face detection.
