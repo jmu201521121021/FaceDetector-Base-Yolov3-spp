@@ -4,11 +4,18 @@
 
 ![demo.jpg](https://github.com/jmu201521121021/FaceDetector-Base-Yolov3-spp/blob/master/results/face-test1.jpg)
 
-# Content
+## Contents
+[Deep Face Detection](#deep-face-detection)
+- [Introduction](#introduction)
+- [Training Data](#training-data)
+- [Train](#train)
+- [Pretrained Models](#pretrained-models)
+- [Evaluation](#evaluation)
+- [Face Detection System](#face-detection-system)
 
 ## Deep Face Detection
 
-## Inroduction
+## Introduction
 
 In this repository, we provide training data, network settings and loss designs for deep face detection.
 The training data is Widerface datasets, which were already packed in darknet  format.he network backbone is darknet53, classifical loss is focal loss,which  improve 1.2%  Map on Widerface val.read focal loss and code,please check the [blog](https://blog.csdn.net/jmu201521121021/article/details/87907324).
@@ -19,7 +26,7 @@ This repository can help researcher/engineer to develop deep face detection  alg
 
 All Widerface data are into VOC format.Please click here to download data.
 
-- if you want to make data into Voc format, please check `data_process/widerfaceToVoc.ipynb `
+- if you want to make data into Voc format with yourself, please check `data_process/widerfaceToVoc.ipynb `
 
 ## Train
 Requirements
@@ -38,7 +45,7 @@ Requirements
 1、Clone the repository
 
 ```
-git clone 
+git clone https://github.com/jmu201521121021/FaceDetector-Base-Yolov3-spp.git
 ```
 
 2、Install darknetAB with GPU surpport 
@@ -57,7 +64,7 @@ python  voc_label.py
 
 5、start train,into `./train`
 ```
-sh train
+sh train.sh
 ```
 
 
@@ -75,7 +82,7 @@ sh train
 - Test on FDDB
   ![roc](https://github.com/jmu201521121021/FaceDetector-Base-Yolov3-spp/blob/master/evaluation/ROC-curve-final.png)
 
-## Face Detection system
+## Face Detection System
 - Requiremets
   - windows10
   - GPU memory >=3GB (Nvidia version)
