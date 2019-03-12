@@ -24,7 +24,7 @@ This repository can help researcher/engineer to develop deep face detection  alg
 
 ## Training Data
 
-All Widerface data are into VOC format.Please click [BaiduDrive](链接：https://pan.baidu.com/s/1AyGyDAR_15wkCqH4mD_nvw )  提取码：r4wc 
+All Widerface data are into VOC format.Please click [BaiduDrive](https://pan.baidu.com/s/1AyGyDAR_15wkCqH4mD_nvw )  提取码：r4wc 
 
 - if you want to make data into Voc format with yourself, please check `data_process/widerfaceToVoc.ipynb `
 
@@ -71,7 +71,7 @@ sh train.sh
 
 ## Pretrained Models
 
-- Please check here [BaiduDrive](链接：https://pan.baidu.com/s/14fCHdlc_dXqgDwftsfHBWA ) 提取码：if0r 
+- Please check here [BaiduDrive](https://pan.baidu.com/s/14fCHdlc_dXqgDwftsfHBWA ) 提取码：if0r 
   ​
 
 ## Evaluation
@@ -87,7 +87,7 @@ sh train.sh
 - Requiremets
   - windows10
   - GPU memory >=3GB (Nvidia version)
-- Download,Please check [BaiduDrive](链接：https://pan.baidu.com/s/1IHw47TLpMun9oBUUVFj8zg ) 提取码：zfik .
+- Download,Please check [BaiduDrive](https://pan.baidu.com/s/1IHw47TLpMun9oBUUVFj8zg ) 提取码：zfik .
 
 ## Contact
 
