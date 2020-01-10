@@ -71,7 +71,7 @@ sh train.sh
 
 ## Pretrained Models
 
-- Please check here [BaiduDrive](https://pan.baidu.com/s/14fCHdlc_dXqgDwftsfHBWA ) 提取码：if0r 
+- Please check here [BaiduDrive](https://pan.baidu.com/s/14fCHdlc_dXqgDwftsfHBWA ) 提取码：if0r
   ​
 
 ## Evaluation
